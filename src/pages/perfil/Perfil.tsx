@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom"
 
 import { AuthContext } from "../../contexts/AuthContext"
 import { ToastAlerta } from "../../utils/ToastAlerta"
+import perfilGif from '../assets/perfil.gif';
 
 function Perfil() {
     const navigate = useNavigate()
@@ -23,7 +24,7 @@ function Perfil() {
                 {/* Capa */}
                 <img
                     className="h-72 w-full object-cover"
-                    src="/src/assets/perfil.gif"
+                    src={perfilGif}
                     alt="Capa do Perfil"
                 />
 

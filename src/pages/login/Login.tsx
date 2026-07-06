@@ -3,6 +3,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { ClipLoader } from "react-spinners";
 import { AuthContext } from "../../contexts/AuthContext";
 import type UsuarioLogin from "../../models/UsuarioLogin";
+import loginGif from '../assets/login.gif';
 
 function Login() {
 
@@ -103,7 +104,7 @@ function Login() {
 
             <div className="hidden lg:flex items-center justify-center bg-white">
                 <img
-                    src="/src/assets/login.gif"
+                    src={loginGif}
                     alt="Login"
                     className="w-3/4"
                 />
