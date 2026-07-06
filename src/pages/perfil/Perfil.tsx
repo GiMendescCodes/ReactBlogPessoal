@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom"
 
 import { AuthContext } from "../../contexts/AuthContext"
 import { ToastAlerta } from "../../utils/ToastAlerta"
-import perfilGif from '../assets/perfil.gif';
+import perfilGif from '../../assets/perfil.gif';
 
 function Perfil() {
     const navigate = useNavigate()

@@ -3,7 +3,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { ClipLoader } from "react-spinners";
 import { AuthContext } from "../../contexts/AuthContext";
 import type UsuarioLogin from "../../models/UsuarioLogin";
-import loginGif from '../assets/login.gif';
+import loginGif from '../../assets/login.gif';
 
 function Login() {
 

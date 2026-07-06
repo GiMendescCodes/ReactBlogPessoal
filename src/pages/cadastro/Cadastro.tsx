@@ -4,6 +4,7 @@ import { ClipLoader } from "react-spinners"
 import type Usuario from "../../models/Usuario"
 import { cadastrarUsuario } from "../../services/Service"
 import { ToastAlerta } from "../../utils/ToastAlerta"
+import cadastroGif from "../../assets/login.gif";
 
 function Cadastro() {
 
@@ -71,7 +72,7 @@ function Cadastro() {
       {/* Lado da imagem */}
       <div className="hidden lg:flex items-center justify-center bg-white">
         <img
-          src="/src/assets/login.gif"
+          src={cadastroGif}
           alt="Cadastro"
           className="w-3/4"
         />
