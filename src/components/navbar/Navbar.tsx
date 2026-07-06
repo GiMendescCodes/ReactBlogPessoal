@@ -22,38 +22,62 @@ function Navbar() {
             <nav className="w-full flex justify-center py-4 bg-[#4F46C8] text-white shadow-md">
                 <div className="container flex justify-between items-center mx-8">
 
+                    {/* Logo */}
                     <Link
                         to="/home"
-                        className="text-2xl font-bold hover:text-[#E8E6FF] transition-colors"
+                        className="text-2xl font-bold px-2 py-1 rounded-md relative
+      hover:scale-105 hover:bg-white/10 transition-all duration-200"
                     >
                         Blog Pessoal
                     </Link>
 
-                    <div className="flex items-center gap-6 text-lg">
+                    {/* Links */}
+                    <div className="flex items-center gap-4 text-lg">
+
                         <Link
                             to="/postagens"
-                            className="hover:text-[#E8E6FF] transition-colors"
+                            className="px-2 py-1 rounded-md relative
+        hover:bg-white/10 hover:scale-105 hover:text-[#E8E6FF]
+        transition-all duration-200
+        after:content-[''] after:absolute after:left-0 after:bottom-0
+        after:h-[2px] after:w-0 after:bg-white
+        hover:after:w-full after:transition-all after:duration-300"
                         >
                             Postagens
                         </Link>
 
                         <Link
                             to="/temas"
-                            className="hover:text-[#E8E6FF] transition-colors"
+                            className="px-2 py-1 rounded-md relative
+        hover:bg-white/10 hover:scale-105 hover:text-[#E8E6FF]
+        transition-all duration-200
+        after:content-[''] after:absolute after:left-0 after:bottom-0
+        after:h-[2px] after:w-0 after:bg-white
+        hover:after:w-full after:transition-all after:duration-300"
                         >
                             Temas
                         </Link>
 
                         <Link
                             to="/cadastrartema"
-                            className="hover:text-[#E8E6FF] transition-colors"
+                            className="px-2 py-1 rounded-md relative
+        hover:bg-white/10 hover:scale-105 hover:text-[#E8E6FF]
+        transition-all duration-200
+        after:content-[''] after:absolute after:left-0 after:bottom-0
+        after:h-[2px] after:w-0 after:bg-white
+        hover:after:w-full after:transition-all after:duration-300"
                         >
                             Cadastrar tema
                         </Link>
 
                         <Link
                             to="/perfil"
-                            className="hover:text-[#E8E6FF] transition-colors"
+                            className="px-2 py-1 rounded-md relative
+        hover:bg-white/10 hover:scale-105 hover:text-[#E8E6FF]
+        transition-all duration-200
+        after:content-[''] after:absolute after:left-0 after:bottom-0
+        after:h-[2px] after:w-0 after:bg-white
+        hover:after:w-full after:transition-all after:duration-300"
                         >
                             Perfil
                         </Link>
@@ -61,10 +85,13 @@ function Navbar() {
                         <Link
                             to=""
                             onClick={logout}
-                            className="hover:text-[#E8E6FF] transition-colors"
+                            className="px-2 py-1 rounded-md relative
+        hover:bg-red-500/20 hover:scale-105 hover:text-red-200
+        transition-all duration-200"
                         >
                             Sair
                         </Link>
+
                     </div>
                 </div>
             </nav>

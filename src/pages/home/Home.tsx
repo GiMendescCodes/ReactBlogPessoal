@@ -9,7 +9,7 @@ function Home() {
                 <div className="container grid grid-cols-2 py-10">
                     <div className="flex flex-col gap-6 justify-center">
                         <h2 className="text-5xl font-bold text-[#5E4FE3]">
-                            Seja Bem Vinde!
+                            Você chegou ao lugar certo!
                         </h2>
 
                         <p className="text-xl text-[#2D2D2D]">
