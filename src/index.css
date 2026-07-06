@@ -1,1 +1,13 @@
 @import "tailwindcss";
+
+.toast-sucesso {
+  border-left: 4px solid #7C6CF2;
+}
+
+.toast-erro {
+  border-left: 4px solid #F26B7A;
+}
+
+.toast-info {
+  border-left: 4px solid #7C6CF2;
+}

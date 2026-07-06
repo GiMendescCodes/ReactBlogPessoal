@@ -27,9 +27,7 @@ export function ToastAlerta(mensagem: string, tipo: string) {
                     background: '#F8F8FC',
                     color: '#5E4FE3',
                 },
-                progressStyle: {
-                    background: '#7C6CF2',
-                },
+                className: 'toast-sucesso',
             });
             break;
 
@@ -41,9 +39,7 @@ export function ToastAlerta(mensagem: string, tipo: string) {
                     background: '#FFF5F7',
                     color: '#D9485F',
                 },
-                progressStyle: {
-                    background: '#F26B7A',
-                },
+                className: 'toast-erro',
             });
             break;
 
@@ -56,9 +52,7 @@ export function ToastAlerta(mensagem: string, tipo: string) {
                     background: '#F5F3FF',
                     color: '#4F46C8',
                 },
-                progressStyle: {
-                    background: '#7C6CF2',
-                },
+                className: 'toast-info',
             });
             break;
     }
